@@ -3,7 +3,7 @@ describe("Course Navigation and Section Toggle", () => {
     cy.visit("https://nastava.efsa.unsa.ba");
     cy.get("#username").type("m6066");
 
-    cy.get("#password").type("xxxxx");
+    cy.get("#password").type("xxxx");
 
     cy.get("#loginbtn").click();
 
